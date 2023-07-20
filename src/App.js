@@ -9,9 +9,6 @@ import NotFound from './pages/NotFound'
 import { GitProvider } from './context/github/GitContext'
 import { AlertProvider } from './context/alert/AlertContext'
 
-// NOTE: Alert is only used on the '/' route moving to that route we can prevent
-// content shift when alert shows by hiding and unhiding the Alert rather than
-// conditionally rendering
 
 const App = () =>  {
   return (
